@@ -8,7 +8,7 @@ from socket import *
 def main():
 	while 1:
 		host = "localhost" # Remote hostname. It can be changed to anything you desire.
-		port = 9889 # Port number.
+		port = 9982 # Port number.
 
 		try:
 			cSock = socket(AF_INET, SOCK_STREAM)
@@ -26,14 +26,29 @@ def main():
 
 		print("Type in a domain name to query, or 'q' to quit:")
 		while 1:
+			# with open('test.cvs','r') as domainsFile :
+
+			# 	for domain in domainsFile :
+			# 		print(domain) 
+			# # for domain in domains :
+			# 		cSock.send(domain.encode()) # Otherwise, send the input to server.
+			# 		data = cSock.recv(1024).decode() # Receive from server.#py3 specific
+			# 		print("Received:", data) # Print out the result.
+			# break
+	
+
 			st =input() # Get input from users.
 			if st == "":
 				continue
 			else:
 				break
-		if st == "q" or  st == "Q":
-			cSock.close()
-			sys.exit(1) # If input is "q" or "Q", quit the program.
+			if st == "q" or  st == "Q":
+				cSock.close()
+				sys.exit(1) # If input is "q" or "Q", quit the program.
+
+
+
+		
 		cSock.send(st.encode()) # Otherwise, send the input to server.
 		data = cSock.recv(1024).decode() # Receive from server.#py3 specific
 		print("Received:", data) # Print out the result.
