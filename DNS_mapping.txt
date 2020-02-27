@@ -1,3 +1,45 @@
 www.baidu.com, 104.193.88.123
 baidu.com, 220.181.38.148
 www.baiduc.om, server cannot find www.baiduc.om
+dslkfjla.com, server cannot find dslkfjla.com
+aaa.com, 63.240.178.216
+isfibonaci.com, server cannot find isfibonaci.com
+isfibonacci.com, 185.199.108.153
+jk.com, server cannot find jk.com
+air.com, 185.53.177.31
+umn.edu, 134.84.159.77
+git.org, 217.160.0.146
+, 0.0.0.0
+qqq, server cannot find qqq
+[A, server cannot find [A
+exo.com, 94.56.83.199
+1, 0.0.0.1
+jdkslf, server cannot find jdkslf
+e.com, server cannot find e.com
+exc.com, server cannot find exc.com
+com.com, 54.183.78.202
+[Aq, server cannot find [Aq
+qqqq.com, server cannot find qqqq.com
+q.com, 155.70.28.140
+qq.com, 58.250.137.36
+66.com, server cannot find 66.com
+666.com, server cannot find 666.com
+git.com, 52.25.19.108
+what.com, 69.172.201.153
+yes.com, 51.4.194.141
+no.con, server cannot find no.con
+qq.net, 119.147.106.136
+yes.net, server cannot find yes.net
+qq.ort, server cannot find qq.ort
+qq.org, 91.195.240.126
+umn.org, 74.208.236.143
+yex.net, server cannot find yex.net
+see you.com, server cannot find see you.com
+seeYou.com, 208.73.211.177
+youtube.com, 172.217.1.46
+google.com, 172.217.4.238
+hello.com, 216.239.34.21
+hexo.com, 23.227.38.32
+hexo.org, 184.168.221.40
+heox.com, 69.172.201.153
+see.org, 69.167.158.85

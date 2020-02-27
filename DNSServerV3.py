@@ -46,7 +46,9 @@ def dnsQuery(connectionSock, srcAddress):
 	# accept query
 	query = serverSocket.recv(1024).decode().strip('\n')
 	found = False
-
+	
+	if query == "":
+		return
 	#check the DNS_mapping.txt to see if the host name exists
 	#set local file cache to predetermined file.
 	try :
@@ -76,11 +78,12 @@ def dnsQuery(connectionSock, srcAddress):
 				ip = (str((record).split(', ')[1])).strip('\n')
 				log.write(query + ', ' + ip+'\n')
 
-				#print response to the terminal
-				print(query + ', ' + ip+'\n')
+				#print Query to the terminal
+				print('Query : ' + query)
 
 				serverSocket.send(('Local DNS: '+query+' : '+ip).encode())
 				serverSocket.close()
+				
 	
 	cache.close()
 	log.close()
@@ -102,8 +105,8 @@ def dnsQuery(connectionSock, srcAddress):
 			log.close()
 			ans = 'API DNS: '+query + ' : ' + response+'\n'
 
-			#print response to the terminal
-			print(query + ', '+response)
+			#print Query to the terminal
+			print('Query : ' + query)
 
 			#send the response back to the client
 			serverSocket.send(ans.encode())
@@ -120,8 +123,8 @@ def dnsQuery(connectionSock, srcAddress):
 			log.close()
 			ans = query + ', ' + response+'\n'
 
-			#print response to the terminal
-			print(ans)
+			#print Query to the terminal
+			print('Query : ' + query)
 
 			#send the response back to the client
 			serverSocket.send(ans.encode())
