@@ -26,15 +26,15 @@ def main():
 
 		print("Type in a domain name to query, or 'q' to quit:")
 		while 1:
+			# ------FILE AUTOMATION TEST------
 			# with open('test.cvs','r') as domainsFile :
-
+			 	
 			# 	for domain in domainsFile :
-			# 		print(domain) 
-			# # for domain in domains :
-			# 		cSock.send(domain.encode()) # Otherwise, send the input to server.
+
+			# 		cSock.send(domain.encode())
+
 			# 		data = cSock.recv(1024).decode() # Receive from server.#py3 specific
 			# 		print("Received:", data) # Print out the result.
-			# break
 	
 
 			st =input() # Get input from users.
@@ -42,9 +42,9 @@ def main():
 				continue
 			else:
 				break
-			if st == "q" or  st == "Q":
-				cSock.close()
-				sys.exit(1) # If input is "q" or "Q", quit the program.
+		if st == "q" or  st == "Q":
+			cSock.close()
+			sys.exit(1) # If input is "q" or "Q", quit the program.
 
 
 

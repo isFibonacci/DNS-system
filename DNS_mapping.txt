@@ -1,1 +1,3 @@
-, 0.0.0.0
+www.baidu.com, 104.193.88.123
+baidu.com, 220.181.38.148
+www.baiduc.om, server cannot find www.baiduc.om
