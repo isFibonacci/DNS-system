@@ -1,4 +1,3 @@
-# DNS-system
 
 ## [How to use]
 
@@ -42,4 +41,5 @@ Client :
         Connect to the host by TCP, port : 9989. If input is "q" or "Q", quit the program.
         Otherwise, send the input to server.
         Holding the socket open, the client will wait for the server to respond with a corresponding IPaddress or server cannot find.
+
         

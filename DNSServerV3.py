@@ -1,6 +1,4 @@
-# Spring 2020 CSci4211: Introduction to Computer Networks
-# This program serves as the server of DNS query.
-# Written in Python v3.
+
 
 import sys, threading, os, random
 from socket import *

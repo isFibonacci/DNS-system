@@ -1,6 +1,4 @@
-# Spring 2020 CSci4211: Introduction to Computer Networks
-# This program serves as the client of DNS query.
-# Written in Python v3.
+
 
 import sys
 from socket import *
@@ -27,7 +25,7 @@ def main():
 		print("Type in a domain name to query, or 'q' to quit:")
 		while 1:
 			# ------FILE AUTOMATION TEST------
-			# with open('test.cvs','r') as domainsFile :
+			# with open('test.csv','r') as domainsFile :
 			 	
 			# 	for domain in domainsFile :
 
