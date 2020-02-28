@@ -7,7 +7,7 @@ from socket import *
 
 def main():
 	host = "localhost" # Hostname. It can be changed to anything you desire.
-	port = 9982 # Port number.
+	port = 9889 # Port number.
 
 	#create a socket object, SOCK_STREAM for TCP
 	try :

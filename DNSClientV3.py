@@ -8,7 +8,7 @@ from socket import *
 def main():
 	while 1:
 		host = "localhost" # Remote hostname. It can be changed to anything you desire.
-		port = 9982 # Port number.
+		port = 9889 # Port number.
 
 		try:
 			cSock = socket(AF_INET, SOCK_STREAM)
